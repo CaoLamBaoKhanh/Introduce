@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #87CEEB; /* Sky blue background color */
+    overflow-y: auto; /* Allow vertical scrolling */
 }
 
 header {
@@ -40,9 +41,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+    position: relative; /* Make footer not fixed */
     width: 100%;
-    bottom: 0;
 }
 
 /* Responsive design for mobile devices */
@@ -54,5 +54,9 @@ footer {
 
     main {
         padding: 1rem;
+    }
+
+    footer {
+        position: static; /* Make footer stay at the bottom */
     }
 }
