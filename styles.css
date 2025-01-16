@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #87CEEB; /* Sky blue background color */
+    background-color: white; /* Sky blue background color */
     overflow-y: auto; /* Allow vertical scrolling */
 }
 
