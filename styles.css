@@ -27,6 +27,17 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: scale(1.2); /* Tăng kích thước lên 120% */
+    color: #FFD700; /* Đổi màu thành vàng khi hover */
+}
+
 
 main {
     padding: 2rem;
